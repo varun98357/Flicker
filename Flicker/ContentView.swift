@@ -16,6 +16,7 @@ struct ContentView: View {
             Button("Show Model") {
                 showingModel = true
             }
+            .foregroundColor(.red)
             .sheet(isPresented: $showingModel) {
                 ModelView()
             }
