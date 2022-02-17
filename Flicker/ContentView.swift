@@ -12,8 +12,11 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            NavigationLink("Model View") {
+            NavigationLink {
                 ModelView()
+            } label: {
+                Text("Model View")
+                    .foregroundColor(.red)
             }
             .navigationTitle("Xcode and Git")
         }
