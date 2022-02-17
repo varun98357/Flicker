@@ -9,15 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var showingModel = false
     
     var body: some View {
         NavigationView {
-            Button("Show Model") {
-                showingModel = true
-            }
-            .foregroundColor(.red)
-            .sheet(isPresented: $showingModel) {
+            NavigationLink("Model View") {
                 ModelView()
             }
             .navigationTitle("Xcode and Git")
