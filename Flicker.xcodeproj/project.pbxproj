@@ -11,6 +11,7 @@
 		8B29B10F27BE44A9003BFC8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29B10E27BE44A9003BFC8E /* ContentView.swift */; };
 		8B29B11127BE44AD003BFC8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B29B11027BE44AD003BFC8E /* Assets.xcassets */; };
 		8B29B11427BE44AD003BFC8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B29B11327BE44AD003BFC8E /* Preview Assets.xcassets */; };
+		8B29B11B27BE4C41003BFC8E /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B29B11A27BE4C41003BFC8E /* ModelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8B29B10E27BE44A9003BFC8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B29B11027BE44AD003BFC8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B29B11327BE44AD003BFC8E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B29B11A27BE4C41003BFC8E /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8B29B10C27BE44A9003BFC8E /* FlickerApp.swift */,
 				8B29B10E27BE44A9003BFC8E /* ContentView.swift */,
+				8B29B11A27BE4C41003BFC8E /* ModelView.swift */,
 				8B29B11027BE44AD003BFC8E /* Assets.xcassets */,
 				8B29B11227BE44AD003BFC8E /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B29B11B27BE4C41003BFC8E /* ModelView.swift in Sources */,
 				8B29B10F27BE44A9003BFC8E /* ContentView.swift in Sources */,
 				8B29B10D27BE44A9003BFC8E /* FlickerApp.swift in Sources */,
 			);
